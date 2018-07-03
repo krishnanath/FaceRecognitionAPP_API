@@ -5,4 +5,7 @@
 
 * use postgreSQL instead of mySQL for this code base.
 
+** Packages Installed **
+1. ```npm i body-parser```
+
 
