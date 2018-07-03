@@ -5,12 +5,12 @@
 
 * use postgreSQL instead of mySQL for this code base.
 
-** Packages Installed **
-``` $ npm install express```
- ```$ npm install body-parser```
- ```$ npm install bcrypt-nodejs```
- ```$ npm install corn```
- ```$ npm install knex --save```
+* Packages Installed 
+* ``` $ npm install express```
+* ```$ npm install body-parser```
+* ```$ npm install bcrypt-nodejs```
+* ```$ npm install corn```
+* ```$ npm install knex --save```
  
  
 
