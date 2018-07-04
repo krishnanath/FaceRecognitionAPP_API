@@ -1,11 +1,10 @@
-const express = require('express');
+ const express = require('express');
 const bodyParser = require('body-parser');
 const bcrypt = require('bcrypt-nodejs');
 const cors = require('cors');
 const knex = require('knex');
 
 const register = require('./controllers/register');
-
 
 const db = knex({
     client: 'pg',
@@ -51,6 +50,7 @@ app.post('/signin', (req, res) => {
 })
 
 app.post('/register',(req , res) => { register.handleRegister(req , res, db, bcrypt)})
+
 
 app.get('/profile/:id', (req, res) => {
     const { id } = req.params;
